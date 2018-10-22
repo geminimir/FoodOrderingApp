@@ -1,0 +1,155 @@
+{
+  "project_info": {
+    "project_number": "38112575649",
+    "firebase_url": "https://foodorderingapp-1a5a2.firebaseio.com",
+    "project_id": "foodorderingapp-1a5a2",
+    "storage_bucket": "foodorderingapp-1a5a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:38112575649:android:7fb1ca04347affe0",
+        "android_client_info": {
+          "package_name": "com.foodorderingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "38112575649-mqi9qv69mkbksqali884sl66jqekb9te.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "38112575649-c9mosc9dprhiin95m1ht0delor7663pg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.foodorderingapp",
+            "certificate_hash": "1bf99d0ca312fcfb27265835d7b6bd21f623669f"
+          }
+        },
+        {
+          "client_id": "38112575649-ngpptp1095kd7444ioc56ok16c3rtekm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB38uaewC1ygycX6P6SCHBMcGCkGMmNs-Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "38112575649-mqi9qv69mkbksqali884sl66jqekb9te.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:38112575649:android:1edcf4c7466e54a7",
+        "android_client_info": {
+          "package_name": "com.app.foodorderingadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "38112575649-mqi9qv69mkbksqali884sl66jqekb9te.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "38112575649-ru2lkblhjbqchm484u7os03kvmurmpju.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.foodorderingadmin",
+            "certificate_hash": "1bf99d0ca312fcfb27265835d7b6bd21f623669f"
+          }
+        },
+        {
+          "client_id": "38112575649-ngpptp1095kd7444ioc56ok16c3rtekm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB38uaewC1ygycX6P6SCHBMcGCkGMmNs-Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "38112575649-mqi9qv69mkbksqali884sl66jqekb9te.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:38112575649:android:399abebbbc74ec4b",
+        "android_client_info": {
+          "package_name": "app.foodapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "38112575649-pqm314ftrmf5j4ktq4d7t7mv3ve0m29s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.foodapp",
+            "certificate_hash": "1bf99d0ca312fcfb27265835d7b6bd21f623669f"
+          }
+        },
+        {
+          "client_id": "38112575649-mqi9qv69mkbksqali884sl66jqekb9te.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "38112575649-ngpptp1095kd7444ioc56ok16c3rtekm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB38uaewC1ygycX6P6SCHBMcGCkGMmNs-Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "38112575649-mqi9qv69mkbksqali884sl66jqekb9te.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

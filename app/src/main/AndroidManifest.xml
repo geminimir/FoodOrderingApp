@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="app.taxipizza">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:name=".Utils.MyApplication"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="app.taxipizza.activities.DrawerActivity"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            tools:replace="android:theme" />
+
+        <activity
+            android:name="app.taxipizza.activities.LoginActivity"
+            android:theme="@style/NoActionBar"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name="app.taxipizza.activities.SplashScreenActivity"
+            android:theme="@style/NoActionBar"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="app.taxipizza.activities.SignUpActivity"
+            android:theme="@style/NoActionBar"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name="app.taxipizza.activities.MealsListActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name="app.taxipizza.activities.MealDetailsActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name="app.taxipizza.activities.ConfirmationActivity"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait"/>
+
+        <service
+            android:name="app.taxipizza.services.ListenOrderUpdateService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name="app.taxipizza.activities.MapsActivity"
+            android:label="@string/title_activity_maps"
+            android:screenOrientation="portrait"/>
+        <activity android:name="app.taxipizza.activities.TrackOrderActivity"
+            android:label="Suivez votre commande"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="app.taxipizza.activities.LeaveCommentActivity"
+            android:label="@string/title_activity_leave_comment"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

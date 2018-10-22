@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F5CD0F</color>
+    <color name="colorPrimaryDark">#F5CD0F</color>
+    <color name="colorAccent">#39796b</color>
+
+    <color name="overlayBackground">#7f333639</color>
+    <color name="overlayActionBar">#0e0d0e</color>
+
+    <color name="btnSignUp">#39796b</color>
+    <color name="btnSignActive">#A9d440</color>
+
+    <color name="colorFacebook">#3a609b</color>
+    <color name="colorTwitter">#1fa2f2</color>
+    <color name="colorGoogle">#fff</color>
+
+    <color name="colorSeparator">#e6e6e6</color>
+    <color name="black">#000</color>
+    <color name="white">#FFF</color>
+</resources>

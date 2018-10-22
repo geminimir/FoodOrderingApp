@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/relativeLayout"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="130dp"
+            android:src="@drawable/logo_eat_it"
+            android:layout_gravity="center_horizontal"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!--<ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/ic_phone_black_24dp"
+                android:tint="@android:color/darker_gray"
+                android:layout_gravity="center_vertical"/> -->
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:id="@+id/edtPhone"
+                android:paddingBottom="15dp"
+                android:textColorHint="@android:color/darker_gray"
+                android:drawableStart="@drawable/ic_phone_black_24dp"
+                android:drawableRight="@drawable/ic_phone_black_24dp"
+                android:backgroundTint="@android:color/darker_gray"
+                android:drawableTint="@android:color/white"
+                android:drawablePadding="10dp"
+                android:inputType="phone"
+                android:textColor="@android:color/white"
+                android:textSize="22sp"
+                android:layout_gravity="center_vertical"
+                android:hint="Télephone"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!--<ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/ic_lock_black_24dp"
+                android:tint="@android:color/darker_gray"
+                android:layout_gravity="center_vertical"/> -->
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:id="@+id/edtPassword"
+                android:paddingBottom="15dp"
+                android:textColorHint="@android:color/darker_gray"
+                android:drawableStart="@drawable/ic_lock_black_24dp"
+                android:backgroundTint="@android:color/darker_gray"
+                android:drawableTint="@android:color/white"
+                android:drawablePadding="10dp"
+                android:inputType="textPassword"
+                android:textColor="@android:color/white"
+                android:textSize="22sp"
+                android:layout_gravity="center_vertical"
+                android:hint="Mot de Passe"/>
+        </LinearLayout>
+
+        </LinearLayout>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SE CONNECTER"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="40dp"
+            android:padding="5dp"
+            android:background="@drawable/btn_sign_in_background"
+            android:id="@+id/btnSingIn"
+            android:textColor="@android:color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:id="@+id/btnFacebook"
+            android:backgroundTint="@color/com_facebook_blue"
+            style="@style/AppTheme.Button"
+            android:layout_marginTop="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_facebook"
+                    android:tint="@color/white"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="7dp"
+                    android:textStyle="bold"
+                    android:text="SE CONNECTER AVEC FACEBOOK"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:layout_gravity="center"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/relativeLayout">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Créer un Compte"
+                android:textStyle="italic"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:layout_centerInParent="true"
+                android:id="@+id/txtCreateAccount"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@android:color/darker_gray" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

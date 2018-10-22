@@ -1,0 +1,8 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval" >
+    <size android:width="58dp"
+        android:height="58dp"/>
+    <stroke
+        android:width="10dp"
+        android:color="@color/btnSignUp"/>
+    <solid android:color="@color/btnSignUp"/>
+</shape>

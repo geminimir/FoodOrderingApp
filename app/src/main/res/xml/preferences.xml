@@ -1,0 +1,28 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Général">
+
+        <CheckBoxPreference
+            android:title="Notifications"
+            android:checked="true"
+            android:key="notifications"
+            android:summary="Recevoir les notifications sur les nouvelles offres."/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="A propos">
+        <PreferenceScreen
+            android:title="Version de l'app"
+            android:summary="1.0"
+            />
+        <PreferenceScreen
+            android:title="Note &amp; Commentaires"
+            android:summary="Notez cette application sur Google Playstore et envoyez vos commentaires."
+            android:key="rate"/>
+        <PreferenceScreen
+            android:title="Contactez-Nous"
+            android:key="contact"
+            android:summary="Contactez l\'equipe de développement."
+            />
+    </PreferenceCategory>
+</PreferenceScreen>
